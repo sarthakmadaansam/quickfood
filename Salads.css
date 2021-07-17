@@ -1,0 +1,29 @@
+#saladheading {
+  font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+  font-size: 35px;
+  margin-left: 650px;
+}
+#saladtagline {
+  font-size: 20px;
+  margin-left: 550px;
+  font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+}
+.saladouter {
+  max-width: 1450px;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  background-color: transparent;
+  overflow-x: auto;
+}
+#saladreceipe {
+  font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+  font-size: 20px;
+  margin-left: 2%;
+  margin-top: 5%;
+}
+#saladfood {
+  margin: 30px;
+  padding-left: 14%;
+}

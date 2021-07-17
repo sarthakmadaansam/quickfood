@@ -1,0 +1,22 @@
+/* service section */
+#services{
+    flex-direction: column;
+    margin: 8px;
+    /* margin: 13px; */
+}
+#services .box img{
+    height: 202px;
+    margin: auto;
+    display: block;
+    width: 316px;
+}
+
+/* Utility sectio  */
+.btn{
+   width: 319px;
+   background-color: rgb(87 111 87);
+   font-size: 1.4rem;
+}
+.h-priary{
+    font-size: 3rem;
+}

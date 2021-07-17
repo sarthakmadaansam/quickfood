@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Bree Serif', serif;
+}
+.menu {
+   font-size: 5rem;
+   text-align: center;
+   background-color: black;
+   color: white;
+   padding: 20px;
+}
+#head {
+   background-color: #6999e2;
+   padding: 15px 40px;
+}
+#service {
+   padding: 65px 40px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   background: #c7e8f5;
+}
+.images {
+   /* display: block; */
+   min-width: 350px;
+   width: 80%;
+   margin: 20px 0px;
+}
+.info {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /* align-items: center; */
+   margin-left: 25px;
+   width: 80%;
+   min-width: 320px;
+}
+.name{
+   margin-bottom: 10px;
+   text-align: center;
+   font-size: 3rem;
+}
+.about{
+   font-size: 1.2rem;
+   margin: 25px;
+   text-align: center;
+   /* max-width: 50%; */
+}
+a {
+   text-decoration: none;
+}
+.btn {
+   display: inline-block;
+   background-color: #3074d4;
+   padding: 20px 40px;
+   color: white;
+   margin: 15px 20px;
+   font-size: 1.2rem;
+}
+.btn:hover{
+   background-color: #2365c2;
+}

@@ -1,0 +1,274 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Main</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-storage.js"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playfair+Display&family=Shadows+Into+Light&display=swap"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Trispace&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
+    
+        <link rel="stylesheet" type="text/css" href="styler.css">
+        <script src="app.js"></script>
+       
+    </head>
+
+    <body class="h-100">
+
+        <nav class="navbar navbar-expand-lg bg-dark text-white">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a class="navbar-brand" style="color: whitesmoke; text-decoration-style: wavy;" href="#">
+                            Home
+                        </a>
+                    </li>
+                    
+                    
+                </ul>
+               
+
+                <div class="dropdown navbar-right">
+                    <button
+                    id="option-id"
+                    class="btn btn-light dropdown-toggle bg-dark text-white"
+                    type="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >
+                        Menu
+                    </button>
+                
+                <div
+                class="dropdown-menu"
+                aria-labelledby="option-id">
+                <a class="dropdown-item" id="btn-logout" href="tacos.html">
+                    Taco
+                </a>
+                <a class="dropdown-item" id="btn-logout" href="snacks.html">
+                    Snacks
+                </a>
+                <a class="dropdown-item" id="btn-logout" href="fried-foods.html">
+                    Fried
+                </a>
+                <a class="dropdown-item" id="btn-logout" href="LivingRoom.html">
+                    chinese
+                </a>
+                <a class="dropdown-item" id="btn-logout" href="Vegan.html">
+                    vegan
+                </a>
+                <a class="dropdown-item" id="btn-logout" href="Burger.html">
+                    burger
+                </a>
+                <a class="dropdown-item" id="btn-logout" href="Pizza.html">
+                    Pizza
+                </a>
+                <a class="dropdown-item" id="btn-logout" href="LocalSpecial.html">
+                    local Special
+                </a>
+                <a class="dropdown-item" id="btn-logout" href="Salad.html">
+                    Salad
+                </a>
+            </div>
+            </div>
+
+            </div>
+
+            <div class="dropdown navbar-right">
+                <button
+                id="option-id"
+                class="btn btn-light dropdown-toggle bg-dark text-white"
+                type="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >
+                    Contact Us
+                </button>
+            
+            <div
+            class="dropdown-menu"
+            aria-labelledby="option-id">
+            <a class="dropdown-item" id="btn-logout" href="">
+                email-xyz@gmail.com<br>
+                Phone-12122121212121212
+            </a>
+        </div>
+        </div>
+
+                <div class="dropdown navbar-right">
+                    <button
+                    id="option-id"
+                    class="btn btn-light dropdown-toggle bg-dark text-white"
+                    type="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >
+                        Options
+                    </button>
+                
+                <div
+                class="dropdown-menu"
+                aria-labelledby="option-id">
+                <a class="dropdown-item" id="btn-logout" href="https://www.google.com/">
+                    Exit
+                </a>
+            </div>
+            </div>
+
+            </div>
+        </nav>
+        <p></p>
+        <p></p>
+
+        <p><h3 style="text-align: center;">Welcome to Quick Food!!</h3></p>
+
+        <div class="slider">
+
+        </div>
+
+        <div class="box">
+            <div class="imgBx">
+                <img src="aboutus.jpg">
+            </div>
+            <div class="content">
+                <p></p>
+                <h2>About Us</h2>
+                <p>
+                    We Believe in Quality. We are determine to have satisfied customer with exquisite taste of our found with taking care of hygine and sanitization.<br style="text-align: center;"> i hope you enjoy our food!! 
+                </p>
+                <p></p>
+                <p></p>
+                <p></p>
+            
+                
+            </div>
+            
+        </div>
+
+        <p><br><br><br><br><br><br><br><br><br><br><br><br><h2 style="text-align: center; color: black;"> Our new addition to the menu</h2></p>
+        
+        <div class="wrapper">
+            <div class="card">
+                <img src="vegann.jpg">
+                <div class="info">
+                    <h1>vegan</h1>
+                    <p>This menu is specifically designed for people who enjoy vegan dish delight </p>
+                    <a href="Vegan.html" class="btn">Click for more info</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="localss.jpg">
+                <div class="info">
+                    <h1>Local special</h1>
+                    <p>For all who want to enjoy the local exquisite food</p>
+                    <a href="LocalSpecial.html" class="btn">Click for more info</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="tacoo.jpg">
+                <div class="info">
+                    <h1>Tacos</h1>
+                    <p>This new crispy taco will mesmerize you chefs gurantee</p>
+                    <a href="tacos.html" class="btn">Click for more info</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="snackss.jfif">
+                <div class="info">
+                    <h1>Snacks</h1>
+                    <p>For nice go to food with the delicious beverages</p>
+                    <a href="snacks.html" class="btn">Click for more info</a>
+                </div>
+            </div>
+            <P><br>  
+                  </P>
+            
+
+        </div>
+        <a href="services.html">
+            <button style="margin-top: 25%; margin-left: 23%; color: rgb(244, 248, 247);
+            font-family: poppins;
+            font-weight: 400;
+            border: 5px solid rgb(19, 42, 43);
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            cursor: pointer;
+            border-radius: 100px;
+            transition: 1.5s; background-color:rgb(11, 236, 199);align-items: center;">Click here to check out our complete menu</button>
+        </a>
+
+        
+        
+
+        <footer>
+    
+            <div class="services">
+    
+                <h2 class="headings">LOCATION</h2>
+                <hr style="margin-right: 100px;">
+                <br> <br>
+                <p>
+                    <i class="fas fa-map-marker-alt"></i>&ensp; 
+                    <a class="foot" href="#">2130 Fulton Street San Diego, CA 94117-1080 USA</a>
+                </p>
+    
+                <br><br>
+    
+            </div>
+    
+            <div class="links">
+                <h2 class="headings">CONTACT INFORMATION</h2>
+                <hr style="margin-right: 100px;">
+                <br><br>
+    
+                <i class="fas fa-phone"></i> &ensp; <a class="foot" href="tel:#">1-800-1234-567</a><br>
+                <br>
+                
+                <i class="far fa-envelope"></i> &nbsp;
+                <a class="foot" href="mailto:info@demolink.org">info@demolink.org</a>
+        
+            </div>
+    
+            <div class = "logodiv">
+                <img src="logo-light-171x39.png" alt="">
+            </div>
+            
+            <p class="rights">
+                <span>&copy;&nbsp;</span>
+                <span class="copyright-year"></span>
+                <span>&nbsp;</span>
+                <span>2021 All Rights Reserved</span>
+                <span>.&nbsp;</span>
+                <a href="privacy-policy.html">Terms of Use and Privacy Policy</a>
+            </p>
+        </footer>
+    
+        
+
+        
+        </body>
+
+
+</html>
